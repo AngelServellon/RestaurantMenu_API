@@ -93,3 +93,7 @@ C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\Res
 C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\obj\Debug\RestaurantMenu_API.csproj.CopyComplete
 C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\obj\Debug\RestaurantMenu_API.dll
 C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\obj\Debug\RestaurantMenu_API.pdb
+C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\bin\EntityFramework.dll
+C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\bin\EntityFramework.SqlServer.dll
+C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\bin\EntityFramework.xml
+C:\Users\ZBOX\Documents\Kodigo\ASP.Net\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\RestaurantMenu_API\bin\EntityFramework.SqlServer.xml
