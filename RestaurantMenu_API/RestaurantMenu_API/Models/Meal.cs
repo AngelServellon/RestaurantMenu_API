@@ -23,7 +23,7 @@ namespace RestaurantMenu_API.Models
     
         public int Id_Meal { get; set; }
         public string Name { get; set; }
-        public byte[] Image { get; set; }
+        public string Image { get; set; }
         public string Preparation { get; set; }
         public int id_Area { get; set; }
         public int id_Category { get; set; }

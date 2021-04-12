@@ -13,7 +13,7 @@
     </Key>
     <Property Name="Id_Category" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
-    <Property Name="Image" Type="varbinary(max)" />
+    <Property Name="Image" Type="varchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="Ingredient">
     <Key>
@@ -21,7 +21,7 @@
     </Key>
     <Property Name="Id_Ingredient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
-    <Property Name="Image" Type="varbinary(max)" />
+    <Property Name="Image" Type="varchar(max)" Nullable="false" />
     <Property Name="Description" Type="text" />
   </EntityType>
   <EntityType Name="Meal">
@@ -30,7 +30,7 @@
     </Key>
     <Property Name="Id_Meal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
-    <Property Name="Image" Type="varbinary(max)" />
+    <Property Name="Image" Type="varchar(max)" Nullable="false" />
     <Property Name="Preparation" Type="text" Nullable="false" />
     <Property Name="id_Area" Type="int" Nullable="false" />
     <Property Name="id_Category" Type="int" Nullable="false" />

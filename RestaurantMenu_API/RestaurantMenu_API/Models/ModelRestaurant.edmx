@@ -18,7 +18,7 @@
           </Key>
           <Property Name="Id_Category" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
-          <Property Name="Image" Type="varbinary(max)" />
+          <Property Name="Image" Type="varchar(max)" Nullable="false" />
         </EntityType>
         <EntityType Name="Ingredient">
           <Key>
@@ -26,7 +26,7 @@
           </Key>
           <Property Name="Id_Ingredient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
-          <Property Name="Image" Type="varbinary(max)" />
+          <Property Name="Image" Type="varchar(max)" Nullable="false" />
           <Property Name="Description" Type="text" />
         </EntityType>
         <EntityType Name="Meal">
@@ -35,7 +35,7 @@
           </Key>
           <Property Name="Id_Meal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
-          <Property Name="Image" Type="varbinary(max)" />
+          <Property Name="Image" Type="varchar(max)" Nullable="false" />
           <Property Name="Preparation" Type="text" Nullable="false" />
           <Property Name="id_Area" Type="int" Nullable="false" />
           <Property Name="id_Category" Type="int" Nullable="false" />
@@ -220,7 +220,7 @@
           </Key>
           <Property Name="Id_Category" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Image" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Meal" Relationship="RestaurantMenuModel.FK_Meal_Category" FromRole="Category" ToRole="Meal" />
         </EntityType>
         <EntityType Name="Ingredient">
@@ -229,7 +229,7 @@
           </Key>
           <Property Name="Id_Ingredient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Image" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="MealIngredient" Relationship="RestaurantMenuModel.FK_MealIngredient_Ingredient" FromRole="Ingredient" ToRole="MealIngredient" />
         </EntityType>
@@ -239,7 +239,7 @@
           </Key>
           <Property Name="Id_Meal" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Image" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Preparation" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="id_Area" Type="Int32" Nullable="false" />
           <Property Name="id_Category" Type="Int32" Nullable="false" />
@@ -349,7 +349,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
