@@ -9,7 +9,10 @@ namespace RestaurantMenu_API
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configuración y servicios de API web
+            //Remueve el resultado en xml y solo se visualiza en JSON
+            var json = config.Formatters.JsonFormatter;
+            json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.None;
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
 
             // Rutas de API web
             config.MapHttpAttributeRoutes();
