@@ -9,6 +9,7 @@
 
 namespace RestaurantMenu_API.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -28,11 +29,15 @@ namespace RestaurantMenu_API.Models
         public int id_Area { get; set; }
         public int id_Category { get; set; }
     
+        [JsonIgnore]
         public virtual Area Area { get; set; }
+        [JsonIgnore]
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [JsonIgnore]
         public virtual ICollection<MealIngredient> MealIngredient { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [JsonIgnore]
         public virtual ICollection<MealTag> MealTag { get; set; }
     }
 }
