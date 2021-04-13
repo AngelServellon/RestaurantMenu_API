@@ -9,6 +9,7 @@
 
 namespace RestaurantMenu_API.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -18,7 +19,9 @@ namespace RestaurantMenu_API.Models
         public int id_Meal { get; set; }
         public int id_Tag { get; set; }
     
+        [JsonIgnore]
         public virtual Meal Meal { get; set; }
+        [JsonIgnore]
         public virtual Tag Tag { get; set; }
     }
 }
