@@ -9,6 +9,7 @@
 
 namespace RestaurantMenu_API.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -26,6 +27,7 @@ namespace RestaurantMenu_API.Models
         public string Description { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [JsonIgnore]
         public virtual ICollection<MealIngredient> MealIngredient { get; set; }
     }
 }
