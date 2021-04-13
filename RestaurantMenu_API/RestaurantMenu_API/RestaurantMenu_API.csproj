@@ -165,6 +165,7 @@
     <Compile Include="Controllers\APICategoryController.cs" />
     <Compile Include="Controllers\APIIngredientController.cs" />
     <Compile Include="Controllers\APIMealController.cs" />
+    <Compile Include="Controllers\APIMealIngredientController.cs" />
     <Compile Include="Controllers\APIMealTagController.cs" />
     <Compile Include="Controllers\APITagController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
