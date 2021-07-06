@@ -2,6 +2,10 @@
 
 Web API for a menu with information from the tables Meal, Ingredient, Category, Area, Tag and the intermediate tables MealIngredient and MealTag with the functions GET, POST, PUT and DELETE.
 
+### API Documentation
+
+https://documenter.getpostman.com/view/14790067/TzCV4Qad
+
 ### Demostration videos
 
 #### Parte 1
