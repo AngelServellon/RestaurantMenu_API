@@ -12,7 +12,7 @@ https://documenter.getpostman.com/view/14790067/TzCV4Qad
 
 https://www.loom.com/share/24e1b789785d4b6ab8defb0ff4132465
 
-#### Parte 1
+#### Parte 2
 
 https://www.loom.com/share/4411ac0e3f694f98aa38c3c4bb406790
 
